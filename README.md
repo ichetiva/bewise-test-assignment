@@ -13,7 +13,7 @@ docker-compose up
 ```
 4. Go to API: http://localhost:8080/
 
-### Example with curl creates 10 questions:
+### Example of an API request that creates 10 questions using a curl:
 ```
 curl -X 'POST' \
   'http://localhost:8080/api/questions/' \
